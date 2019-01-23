@@ -1,0 +1,16 @@
+/* group div will go out from flow */
+.group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+input {
+    display: block;
+    font-size: 14px;
+    padding: 10px 10px 10px 5px;
+    background: #eee;
+    color: #333;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
