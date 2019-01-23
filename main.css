@@ -30,3 +30,11 @@ label {
     top: 10px;
     transition: 0.2s ease all;
 }
+
+/* the label will be on top of input tag */
+input:focus~label,
+input:valid~label {
+    top: -20px;
+    font-size: 14px;
+    color: #d9534f;
+}
