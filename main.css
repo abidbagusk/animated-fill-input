@@ -36,5 +36,31 @@ input:focus~label,
 input:valid~label {
     top: -20px;
     font-size: 14px;
-    color: #d9534f;
+    color: #4b3f3e;
+}
+
+/* Bar style */
+.bar {
+    position: relative;
+    display: block;
+    width: auto;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #d9534f;
+    transition: 0.3s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
 }
